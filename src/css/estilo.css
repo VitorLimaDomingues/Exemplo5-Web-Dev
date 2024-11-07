@@ -1,0 +1,15 @@
+/* Reset básico */
+/* * Seletor universal {}- Bloco --Propriedade e valor */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #041944;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
