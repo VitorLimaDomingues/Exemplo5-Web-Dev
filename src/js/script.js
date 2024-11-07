@@ -72,3 +72,10 @@ function checarCampos(){
 
 
 // Validar sucesso
+
+function validarSucesso(input){
+    // Retorna para o elemento pai
+    const controle = input.parentElement;
+    // Pega a classe do controle sucesso
+    console.className = "controle sucesso"
+}
