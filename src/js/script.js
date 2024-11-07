@@ -77,5 +77,15 @@ function validarSucesso(input){
     // Retorna para o elemento pai
     const controle = input.parentElement;
     // Pega a classe do controle sucesso
-    console.className = "controle sucesso"
+    controle.className = "controle sucesso"
+}
+
+function chamar(){
+    if(!validarErro){
+        window.location="index.html"
+    }else{
+        setTimeout(()=>{
+        window.location ="menu.html"
+        },3000)
+    }
 }
